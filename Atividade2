@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			nav.nav1 {
+  				background-color: #F3F3F3;
+                overflow: hidden;
+			}
+
+			nav.nav2 {
+  				background-color:#3B9C01;
+                overflow: hidden;
+			}
+			ul.lista1 {
+  				list-style-type: none;
+  				margin: 0;
+				padding: 0;
+                float: left;
+                width: 50%;
+  				overflow: hidden;
+            }
+            ul.lista2 {
+  				list-style-type: none;
+  				margin: 0;
+				padding: 0;               
+  				overflow: hidden;
+            }
+            li.topo {
+				float: left;
+                padding: 5px;
+			}
+			div{
+            	
+            }
+            #div1{
+            	float: left;
+                width: 33%;
+                color: white;  				
+                font-size: 16pt;
+            }
+			#div2{
+            	float: left;
+                width: 55%;
+                color: white;
+                font-size: 24pt;
+            }
+            #div3{
+            	font-size: 18pt;
+                color: white;
+            }
+            th{
+            	color:#F2F2F2;
+                background-color:white;
+                border-bottom-style: groove;
+                border-top-style: groove;
+                border-width: 1px;
+                border-color: #F2F2F2;
+                padding: 10px;
+            }
+            td.branco{
+            	font-size: 12pt;
+                background-color: white;
+                border-bottom-style: groove;
+                border-width: 1px;
+                text-align: center;
+                border-color: #F2F2F2;
+                padding: 10px;
+            }
+			td.cinza{
+            	font-size: 12pt;
+                background-color:#F4F4F4;
+                border-bottom-style: groove;
+                border-width: 1px;
+                text-align: center;
+                border-color: #F2F2F2;
+                padding: 10px;
+            }
+            article{
+            		float: left;
+                    width: 65%;
+                    margin: 5px;
+					padding: 0;
+                    border-right-style: groove;
+                    overflow: hidden;
+                    border-color: #F2F2F2;
+                    border-width: 1px;
+                    
+            }
+            #div4{
+            	text-align: center;
+                border-bottom-style: groove;
+                border-top-style: groove;
+                overflow: hidden;
+                border-color: #F2F2F2;
+                border-width: 1px;
+            }
+            ul.rodada{
+            	list-style-type: none;                           
+            }
+            li.jogo{
+            	margin: 0;
+				padding: 20px;
+                border-bottom-style: groove;
+                overflow: hidden;
+                border-color: #F2F2F2;
+                border-width: 1px;
+                text-align: center;
+                vertical-align: middle;
+            }
+            div.escudo{
+            	float:none;
+            }
+		</style>
+	</head>
+	<body>
+		<header>
+        	<nav class="nav1">
+            	<ul class="lista1">
+                	<li class="topo" style="color: blue">globo.com</li>
+  					<li class="topo" style="color: brown">g1</li>
+    				<li class="topo" style="color: green">globoesporte</li>
+  					<li class="topo" style="color: orange">gshow</li>
+                    <li class="topo" style="color: blue">vídeos</li>
+				</ul>
+                <ul class="lista2">
+  					<li class="topo">assine já</li>
+    				<li class="topo">Minha conta</li>
+  					<li class="topo">E-mail</li>
+                    <li class="topo">Entrar</li>
+				</ul>
+            </nav>
+            <nav class="nav2">
+            	<div id="div1"> Menu GE Time </div>
+            	<div id="div2"> BRASILEIRÃO SÉRIE A </div>
+                <div id="div3"> Buscar </div>
+            </nav>        
+        </header>
+        <main>
+        	<article>
+            	<h1>TABELA</h1>
+                <table style="width:100%">
+                	<tr>
+    					<th>Classificação</th>
+    					<th>P</th>
+                    	<th>J</th>
+                    	<th>V</th>
+                    	<th>E</th>
+                    	<th>D</th>
+                    	<th>GP</th>
+    					<th>GC</th>
+                    	<th>SD</th>
+                    	<th>%</th>
+                    	<th>ult.jogos</th>
+                    </tr>
+                    <tr>
+                    	<td class="branco"> 1 Athletico-PR</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Atlético-GO</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Atlético-MG</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    
+                    <tr>
+                    	<td class="branco">1 Bahia</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Botafogo</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Bragantino</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Ceará</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Corinthians</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Coritiba</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Flamengo</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Fluminense</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Fortaleza</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Goiás</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Grêmio</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Internacional</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Palmeiras</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Santos</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 São Paulo</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                       <tr>
+                    	<td class="branco">1 Sport</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>
+                    <tr>
+                    	<td class="branco">1 Vasco</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">0</td>
+                        <td class="cinza"> 0</td>
+                        <td class="branco">  </td>
+                    </tr>                   
+                </table>
+        	</article>
+            <asside>
+            	<h1>JOGOS</h1>
+            	<div id="div4"><h3>1ª RODADA</h3> </div>
+                <ul class="rodada">
+                	<li class="jogo">
+                    FLA
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/04/10/Flamengo-2018.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/10/atletico-mg.svg" style="width:45px;height:35px;">
+                    CAM
+                    </li>
+                    <li class="jogo">
+                    BOT
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2019/02/04/botafogo-svg.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/bahia.svg" style="width:45px;height:35px;"> 
+                    BAH
+                    </li>
+                    <li class="jogo">
+                    PAL
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2019/07/06/Palmeiras.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/vasco.svg" style="width:45px;height:35px;">
+                    VAS
+                    </li>
+                    <li class="jogo">
+                    SAN
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2019/12/30/svg.svg" style="width:45px;height:35px;">
+                    BGT
+                    </li>
+                    <li class="jogo">
+                    COR
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2019/09/30/Corinthians.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/equipes/2018/03/11/atletico-go.svg" style="width:45px;height:35px;">
+                    ACG
+                    </li>
+                    <li class="jogo">
+                    GRE
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/gremio.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" style="width:45px;height:35px;">
+                    FLU
+                    </li>
+                    <li class="jogo">
+                    SPO
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sport.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2019/10/10/ceara.svg" style="width:45px;height:35px;">
+                    CEA
+                    </li>
+                    <li class="jogo">
+                    CFC
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/coritiba.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" style="width:45px;height:35px;">
+                    INT
+                    </li>
+                    <li class="jogo">
+                    FOR
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/06/10/optimised.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2019/09/09/Athletico-PR.svg" style="width:45px;height:35px;">
+                    CAP
+                    </li>
+                    <li class="jogo">
+                    GOI
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2019/05/01/Goias_SVG.svg" style="width:45px;height:35px;"> 
+                    X 
+                    <img src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" style="width:45px;height:35px;">
+                    SAO
+                    </li>
+                  
+                </ul>
+            </asside>
+    	</main>
+	</body>
+</html>
