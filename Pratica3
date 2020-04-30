@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+        	body{
+            	background-color:#030303;
+            }
+			nav.nav1 {
+  				background-color: #030303;
+                overflow: hidden;
+                height: 100px;
+			}
+
+			nav.nav2 {
+  				background-color:#33445b;
+                height: 45px;
+                border-bottom-style: solid;
+                border-top-style: solid;
+                border-width: 5px;
+                border-color: #b1b1b1;
+			}
+			ul.lista1 {
+  				list-style-type: none;
+                position: relative;
+                top: 70px;
+  				left: 10px;                
+  				margin: 0;
+				padding: 0;
+  				overflow: hidden;
+            }
+            #data{
+            	color: lightgray;
+            	position: relative;
+                top: 30px;
+  				left: 500px;
+            }
+            ul.lista2 {
+  				list-style-type: none;
+  				margin: 0;
+				padding: 8px;               
+  				overflow: hidden;
+                text-align: center;
+            }            
+            li.topo1 {
+            	color: lightblue;
+				float: left;
+                padding: 5px;
+			}
+            li.topo2 {
+            	color: lightgray;
+                width: 10%;
+                padding: 3px;
+				float: left;
+                font-size: 13pt;			
+            }
+            main{
+            	background-color :white;
+                padding: 20px;
+                float: left;
+                width:70%;
+                height: 500px;
+            }
+            article{
+            	background-color :#b1b1b1;
+                padding: 20px;
+                height: 460px;
+            }
+            section{
+            	background-color :#d9d9d9;
+                height: 420px;
+            }
+            h1{
+            	font-size: 36px;
+                color:lightblue;
+                text-align: center;
+                position: relative;
+                top: 40px;
+            }
+            #p1{
+            	padding: 0px 20px 20px 150px;
+            	float: left;
+                width: 15%;                
+                text-align: center;
+            }
+            #p2{
+            	padding 20px;
+                margin:20px;
+            	float: left;
+                width: 15%;
+                text-align: center;
+            }
+            #p3{
+            	padding 20px;
+                margin: 20px;
+            	float: left;
+                width: 15%;
+                text-align: center;
+            }
+            #p4{
+            	padding: 5px 20px 20px 20px; 
+            	float: left;
+                width: 15%;
+                text-align: center;
+            }
+            aside{
+            	background-color :#0d2351;
+                height:540px;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+            }
+            li.lado{
+            	color: lightblue;
+                font-size: 13px;
+            }
+            #rodape{
+            	color: white;
+                font-size: 18px;
+            }
+		</style>
+	</head>
+	<body>
+		<header>
+        	<nav class="nav1">
+            	<ul class="lista1">
+                	<li class="topo1" >uol</li>
+  					<li class="topo1" >bol</li>
+    				<li class="topo1" >globo</li>
+  					<li class="topo1" >yahoo</li>
+				</ul>
+                <p id="data">10 de novenbro de 2019</p>
+            </nav>
+            <nav class="nav2">
+            	<ul class="lista2">
+                	<li class="topo2" >Home</li>
+  					<li class="topo2" >troféus</li>
+    				<li class="topo2" >História</li>
+  					<li class="topo2" >Conselho</li>
+				</ul>
+            </nav>        
+        </header>
+        <main>
+        	<article>            	
+            	<section>
+                	<h1>O Time</h1>
+                	<p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus varius dolor vitae mollis. Nam iaculis neque quis risus commodo, tincidunt ornare metus feugiat. Nulla sit amet hendrerit orci. Nullam ac lectus ultrices, fringilla eros eget, congue nisl. Maecenas ac lacinia lectus. </p>
+                	<p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus varius dolor vitae mollis. Nam iaculis neque quis risus commodo, tincidunt ornare metus feugiat. Nulla sit amet hendrerit orci.  </p>
+                    <p id="p3">In a nunc tortor. Pellentesque tristique vel nibh quis facilisis. Nullam vel molestie lectus. Phasellus euismod consectetur nibh at Nullam ac lectus ultrices, fringilla eros eget, congue nisl. Maecenas </p>
+                    <p id="p4">Nam ornare lacinia condimentum. Sed sagittis interdum nisl, sit amet tempor lorem molestie sit amet. Suspendisse a dictum metus Nam iaculis neque quis.</p>
+                </section>
+            </article>            
+        </main>
+        <aside>
+        	<ul>
+            	<li class="lado" >Feed</li>
+  				<li class="lado" >Notícias</li>
+    			<li class="lado" >Comédia</li>  					
+				</ul>        
+        </aside>
+        <footer>
+        <p id="rodape" >Este é um rodape</p>
+        </footer>
+	</body>
+</html>
